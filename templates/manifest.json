@@ -1,0 +1,119 @@
+{
+  "version": "11.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "AwsCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AwsCdkStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/AwsCdkStack/simpleAppBucketTural/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "simpleAppBucketTuralE81910B4",
+            "trace": [
+              "new Bucket (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1331:22)",
+              "new AwsCdkStack (/mnt/d/wsl_files/aws-cdk/lib/aws-cdk-stack.ts:8:20)",
+              "Object.<anonymous> (/mnt/d/wsl_files/aws-cdk/bin/aws-cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Module.m._compile (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Object.require.extensions.(anonymous function) [as .ts] (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "main (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "findNodeScript.then.existing (/usr/share/nodejs/libnpx/index.js:268:14)"
+            ]
+          }
+        ],
+        "/AwsCdkStack/simpleAppBucketTuralOutput": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "simpleAppBucketTuralOutput",
+            "trace": [
+              "new AwsCdkStack (/mnt/d/wsl_files/aws-cdk/lib/aws-cdk-stack.ts:11:5)",
+              "Object.<anonymous> (/mnt/d/wsl_files/aws-cdk/bin/aws-cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Module.m._compile (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Object.require.extensions.(anonymous function) [as .ts] (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "main (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/mnt/d/wsl_files/aws-cdk/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:778:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)",
+              "Module.load (internal/modules/cjs/loader.js:653:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:585:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:831:12)",
+              "findNodeScript.then.existing (/usr/share/nodejs/libnpx/index.js:268:14)"
+            ]
+          }
+        ],
+        "/AwsCdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "construct (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5)",
+              "visit (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:202:5)",
+              "visit (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:198:5)",
+              "injectMetadataResources (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.App.process.once (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:286:20)",
+              "process.emit (events.js:198:13)",
+              "process.EventEmitter.emit (domain.js:448:20)",
+              "process.emit (/mnt/d/wsl_files/aws-cdk/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:126:23)"
+            ]
+          }
+        ],
+        "/AwsCdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "construct (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5)",
+              "visit (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:202:5)",
+              "visit (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:198:5)",
+              "injectMetadataResources (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.App.process.once (/mnt/d/wsl_files/aws-cdk/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:286:20)",
+              "process.emit (events.js:198:13)",
+              "process.EventEmitter.emit (domain.js:448:20)",
+              "process.emit (/mnt/d/wsl_files/aws-cdk/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:126:23)"
+            ]
+          }
+        ]
+      },
+      "displayName": "AwsCdkStack"
+    }
+  }
+}
